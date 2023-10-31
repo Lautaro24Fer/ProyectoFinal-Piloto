@@ -558,3 +558,6 @@ section.container-bandeja .bandeja-element div.text .usuarioInfo{
 .title2:hover{
     background-color: var(--color3);
 }
+.user-list{
+    text-decoration: none;
+}
