@@ -397,6 +397,7 @@ aside.accountInfo section.user-community{
     flex-direction: column;
     gap: 1.2em;
     padding: 1em 0 1em 0;
+    
 }
 
 aside.accountInfo section.user-services .elementServices,
@@ -404,12 +405,14 @@ aside.accountInfo section.user-community .elementServices{
     display: flex;
     align-items: center;
     gap: .3em;
+
 }
 
 aside.accountInfo section.user-services .elementServices .logo,
 aside.accountInfo section.user-community .elementServices .logo{
     display: grid;
     place-items: center;
+
 }
 
 aside.accountInfo section.user-services .elementServices .logo svg,
@@ -538,4 +541,20 @@ section.container-bandeja .bandeja-element div.text .usuarioInfo{
     .grid-container{
         padding: 0 7em 0 7em;
     }
+}
+.buttons{
+    transition: opacity 0.5s;
+}
+.buttons:hover{
+    opacity: 0.5;
+}
+.title2{
+    color: var(--color2);
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 5px;
+    transition: background-color 0.4s;
+}
+.title2:hover{
+    background-color: var(--color3);
 }
